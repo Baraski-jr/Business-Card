@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+    font-family:'Quicksand', sans-serif;
+}
+.text-w {
+    color: #fff;
+}
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min(90vw, 37rem);
+    box-shadow: 0 0 10px #ccc;
+}
+.left-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.card--main-detail {
+    background-color: #cc4e4c ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 2.5rem;
+}
+.name {
+    font-size: calc(100% + 20px);
+}
+.role {
+    font-size: calc(100% + 3px);
+    padding-left: 1rem;
+    line-height: .5;
+    font-weight: 500;
+}
+.more-detail {
+    background-color: #363635;
+    padding: 1.5rem 2.5rem;
+}
+.detail-links {
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+/* Logo Section */
+/* Center the content in the right hand side (logo & text under it) */
+.right-container {
+    display: grid;
+    place-content: center;
+}
+
+.logo-container {
+    position: relative;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.logo {
+    margin-inline: auto;
+    width: 10rem;
+    position: absolute;
+    z-index: -1;
+    bottom: 1.5rem;
+}
+.logo-name {
+    font-size: 26px;
+    color: #313130;
+    text-align: center;
+    line-height: .8;
+}
+.bio {
+    color:  #AF7B78 ;
+    text-align: center;
+
+}
+
+/* #C35352 red */
+/* #454543 black */
+/* #AF7B78 text red */
